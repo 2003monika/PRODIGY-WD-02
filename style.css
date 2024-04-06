@@ -1,0 +1,110 @@
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color:rgb(0, 0, 0);
+    background-image: url("https://e0.pxfuel.com/wallpapers/600/825/desktop-wallpaper-leaves-dark-branch.jpg");
+   background-clip: border-box;
+   background-size:cover;
+   background-position: sticky;
+}
+
+.container {
+    background-image: url("https://e0.pxfuel.com/wallpapers/600/825/desktop-wallpaper-leaves-dark-branch.jpg");
+    width: 5ch;
+    min-width: 800px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 30px 20px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(116, 113, 113, 0.338);
+    background-clip: border-box;
+    background-size:cover;
+}
+
+.timer-display {
+    position: relative;
+    width: 92%;
+    background-image:url("https://e0.pxfuel.com/wallpapers/600/825/desktop-wallpaper-leaves-dark-branch.jpg");
+    left: 5%;
+    font-family: 'Roboto mono', monospace;
+    color: #959781;
+    font-size: 45px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+    box-shadow: 0 0 35px rgba(154, 151, 158, 0.25);
+   
+}
+
+.buttons {
+    width: 90%;
+    margin: 60px auto 5px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons button {
+    width: 120px;
+    height: 45px;
+   background-color:rgb(128, 131, 134);
+  
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+.buttons button:nth-last-child(2) {
+    background-color: #6e9698;
+}
+
+.buttons button:nth-last-child(1) {
+    background-color: #789f89;
+}
+.buttons #start-timer{
+      border :2px;
+      color: #0f1317;
+}
+.buttons #pause-timer{
+    border :2px;
+    color: rgb(2, 28, 29);
+}
+.buttons #reset-timer{
+    border :2px;
+    color: #02140a;
+}
+.buttons #start-timer:hover {
+    box-shadow: 0 2px 35px rgb(58, 72, 83);
+    width: 123px;
+    height:46px;
+    background-color: #0f1317;
+    color:rgba(221, 238, 239, 0.816);
+}
+.buttons #pause-timer:hover{
+    box-shadow:0 2px 30px rgb(89, 122, 124);
+    width: 123px;
+    height:46px;
+    background-color: #021a1c;
+    color:rgba(236, 230, 227, 0.816);
+}
+.buttons #reset-timer:hover{
+    box-shadow:0 2px 35px rgb(107, 144, 123);
+    width: 123px;
+    height:46px;
+    background-color:#091910;
+    color:rgba(235, 234, 227, 0.816);
+}
